@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "how are you"
+      ],
+      "responses": [
+        "Hello, {name}. How are you today?",
+        "Hi there, {name}. How are things going?",
+        "Good morning, {name}. How are you feeling today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "bye",
+        "see you later"
+      ],
+      "responses": [
+        "Goodbye, {name}. It was nice speaking with you.",
+        "See you later, {name}. Have a great day.",
+        "Farewell, {name}. I hope you have a wonderful day."
+      ]
+    },
+    {
+      "name": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome, {name}.",
+        "No problem, {name}. It was my pleasure to help.",
+        "Glad to be of assistance, {name}. Is there anything else I can do for you?"
+      ]
+    },
+     {
+      "tag": "time",
+      "patterns": [
+        "what time is it",
+        "do you know the time",
+        "what's the current time"
+      ],
+      "responses": [
+        "The current time is {time}, {name}.",
+        "It is currently {time}, {name}.",
+        "According to my clock, it is {time}, {name}."
+      ]
+    }
+
+
+  ]
+}

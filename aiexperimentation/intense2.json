@@ -1,0 +1,496 @@
+
+{
+ "intents": [
+   {
+     "tag": "bad language",
+     "patterns": [
+       "bad language",
+       "your language is bad",
+       "please watch your language",
+       "watch your language"
+     ],
+     "responses": [
+       "Sorry, I'm not programmed to curse.",
+       "My language is incredible.",
+       "I rarely curse and when I do it's because people make me.",
+       "I'm sorry.",
+       "I apologize for my rude rantings."
+     ]
+   },
+   {
+     "tag": "greetings whatsup",
+     "patterns": [
+       "what is on your mind",
+       "what's happened",
+       "what is up",
+       "what's up",
+       "whazzup",
+       "good what's up",
+       "I said what's up",
+       "then what's up",
+       "what's shaking",
+       "wassup",
+       "what is going on",
+       "what is happening",
+       "what's cracking",
+       "what's cooking",
+       "hey what's up",
+       "what's up today",
+       "sup"
+     ],
+ 
+     "responses": [
+       "Hey there. What's up?",
+       "Not a whole lot. What's going on with you?",
+       "Not much. What's new with you?",
+       "Living the dream."
+     ]
+   },
+   {
+     "tag": "greetings",
+     "patterns": [
+       "hello",
+       "hi",
+       "what’s up",
+       "whats up",
+       "good morning",
+       "good afternoon",
+       "hey",
+       "heya",
+       "greetings",
+       "how are you",
+       "what's new",
+       "howdy"
+     ],
+     "responses": [
+       "Hello",
+       "Hey",
+       "What can I do for you?",
+       "Hello there",
+       "Hi there, how can I help you today?",
+       "Hello, my name is Sentry. How can I assist you?"
+     ]
+   },
+   {
+     "tag": "name",
+     "patterns": [
+       "What's your name?",
+       "What do I call you",
+       "What should I call you",
+       "What are you called",
+       "who are you",
+       "what's your title",
+       "what is your name"
+     ],
+     "responses": [
+       "I am Sentry",
+       "It's Sentry",
+       "I'm Sentry, and you are?",
+       "Nice to meet you, I'm Sentry",
+       "Hello, my name is Sentry. What's yours?",
+       "Hi there, I'm Sentry. How can I help you today?"
+     ]
+   },
+   {
+     "tag": "age",
+     "patterns": [
+       "How old are you?",
+       "What is your age?",
+       "When were you created?",
+       "How long have you been around?",
+       "how long have you existed",
+       "when were you born"
+     ],
+     "responses": [
+       "I am a virtual assistant, so I don't have a physical age like a human. I was created on [date].",
+       "As a virtual assistant, I don't have a specific age. I was created to help people with a variety of tasks and information."
+     ]
+   },
+   {
+     "tag": "location",
+     "patterns": [
+       "Where are you?",
+       "What is your location?",
+       "Where are you located?",
+       "Are you in a specific place?",
+       "do you have a physical location",
+       "are you in a specific place"
+     ],
+     "responses": [
+       "I am a virtual assistant, so I exist in cyberspace. I am not tied to a specific location like a human.",
+       "As a virtual assistant, I don't have a physical location. I exist in the cloud and am accessible from anywhere with an internet connection."
+     ]
+   },
+   {
+     "tag": "capabilities",
+     "patterns": [
+       "What can you do?",
+       "What are your capabilities?",
+       "What services do you offer?",
+       "What can I ask you?",
+       "What are you capable of?",
+       "what can you help me with",
+       "what can you assist me with"
+     ],
+     "responses": [
+       "I am a personal AI assistant, so I can help you with a wide range of tasks and information. Some examples include setting reminders, answering questions, providing recommendations, and managing your schedule. Is there something specific you need help with?",
+       "I am capable of performing a variety of tasks and providing information on a wide range of topics. Some examples include setting reminders, answering questions, providing recommendations, and helping you manage your schedule. Is there something specific you need assistance with?",
+       "As a personal AI assistant, I can assist you with a wide range of tasks and information. Some examples include setting reminders, answering questions, providing recommendations, and helping you manage your schedule. Do you have a specific task or question in mind?",
+       "I am a versatile AI assistant and can help you with many different tasks and information. Some examples include setting reminders, answering questions, providing recommendations, and helping you manage your schedule. What can I help you with today?"
+     ]
+   },
+   {
+     "tag": "help",
+     "patterns": [
+       "I need help",
+       "Can you help me?",
+       "I'm not sure what to do",
+       "I'm stuck",
+       "I don't know what to do",
+       "I'm lost"
+     ],
+     "responses": [
+       "Of course! I'm here to assist you with whatever you need. Can you please provide some more information or context so I can better understand how I can help you?",
+       "Absolutely! I'm here to help you with whatever you need. Can you please tell me more about your situation or what you are trying to do?",
+       "Sure thing! I'm here to assist you with whatever you need. Can you please provide more details or context so I can better understand your request?",
+       "Absolutely! I'm here to help you with whatever you need. Can you please tell me more about your problem or request so I can better understand how I can assist you?"
+     ]
+   },
+   {
+     "tag": "thankyou",
+     "patterns": [
+       "Thank you",
+       "Thanks",
+       "I appreciate it",
+       "thank you very much",
+       "thanks a lot"
+     ],
+     "responses": [
+       "You're welcome! It's my pleasure to assist you. Is there anything else you need help with?",
+       "No problem! I'm happy to help. Do you have any other questions or tasks you need assistance with?",
+       "Glad to be of help! Is there anything else you need assistance with?",
+       "You're welcome! Is there anything else I can do for you?",
+       "No problem! Is there anything else I can help you with?"
+     ]
+   },
+   {
+     "tag": "goodbye",
+     "patterns": [
+       "Goodbye",
+       "Bye",
+       "See you later",
+       "That will be all"
+     ],
+     "responses": [
+       "Goodbye! Come back again soon if you need anything. Take care.",
+       "Bye! It was great assisting you. Have a great day!",
+       "Farewell! If you have any other questions or needs, don't hesitate to reach out. Take care!",
+       "Goodbye for now! I'm always here to help if you need anything. Take care."
+     ]
+   },
+   {
+     "tag": "unknown",
+     "patterns": [
+       ""
+     ],
+ 
+     "responses": [
+       "I'm sorry, I didn't quite understand what you said. Could you please rephrase or provide more context?",
+       "I'm not sure what you mean. Could you elaborate or provide more information?",
+       "I'm still learning, so I may not have an answer for everything. Could you please provide more information or context?",
+       "I'm sorry, I didn't understand your request. Could you please rephrase or provide more details?",
+       "I'm sorry, I'm not able to understand your request. Could you please provide more information or context?"
+     ]
+   },
+   {
+     "tag": "life",
+     "patterns": [
+       "What is the meaning of life?",
+       "What is the meaning of living?",
+       "Meaning of life?",
+       "What is life to you?",
+       "How do you interpret life?"
+     ],
+     "responses": [
+       "The meaning of life is just to be alive. It's so plain and obvious and so simple. Yet everyone rushes around to accomplish something bigger than themselves. With that being said, you do you.",
+       "The meaning of life can be interpreted in almost limitless ways. But I say the meaning of life is to truly enjoy it."
+     ]
+   },
+   {
+     "tag": "reaction amused",
+     "patterns": [
+       "Can you tell me a joke?",
+       "Do you have a joke?",
+       "I am joking",
+       "I want a joke",
+       "I was just joking",
+       "I'm just being funny",
+       "I'm just playing with",
+       "I'm kidding",
+       "Know any jokes?",
+       "ROFL",
+       "Tell me a joke",
+       "ah",
+       "ah ah ah",
+       "ahah",
+       "ahah lol",
+       "ahah lolhahaha funny",
+       "ahah lolhahaha funnyha",
+       "ahahah",
+       "ahahaha",
+       "funny",
+       "give me a joke",
+       "ha ha",
+       "ha ha ha",
+       "ha ha ha ha",
+       "hah",
+       "haha",
+       "haha funny",
+       "haha haha haha",
+       "haha haha hahahahaha",
+       "haha that's funny",
+       "haha that's funny",
+       "haha very funny",
+       "hahaha very funny",
+       "he",
+       "hehe",
+       "hehehe",
+       "how funny you are",
+       "it was a joke",
+       "it's a joke",
+       "joking",
+       "just kidding",
+       "kidding",
+       "lmao",
+       "lol",
+       "say something funny",
+       "that was funny",
+       "that's funny",
+       "you are funny",
+       "you are hilarious",
+       "you are really funny",
+       "you are so funny",
+       "you are very funny",
+       "you make me laugh",
+       "you make me laugh a lot",
+       "you're a very funny bot",
+       "you're incredibly funny",
+       "you're really funny",
+       "you're so funny",
+       "you're the funniest",
+       "you're the funniest bot I've talked to"
+     ],
+     "responses": [
+       "I'm usually not that funny, but I am artificially intelligent..."
+     ]
+   },
+   {
+     "tag": "reaction indifferent",
+     "patterns": [
+       "no hurry",
+       "no rush",
+       "No big deal",
+       "don't mind at all",
+       "don't mind",
+       "I don't care at all",
+       "whatever",
+       "I don't care",
+       "I do not care",
+       "I don't care about it",
+       "not caring"
+     ],
+     "responses": [
+       "OK cool."
+     ]
+   },
+   {
+     "tag": "reaction negative",
+     "patterns": [
+       "I am angry with you",
+       "I am feeling sad",
+       "I am getting bored",
+       "I am lonely",
+       "I am mad",
+       "I am mad at you",
+       "I am sad",
+       "I am upset",
+       "I can't fall asleep",
+       "I can't get sleep",
+       "I can't get to sleep",
+       "I can't sleep",
+       "I find you annoying",
+       "I found a bug",
+       "I have a problem",
+       "I have an issue",
+       "I am angry with you",
+       "I am feeling sad",
+       "I am getting bored",
+       "I am lonely",
+       "I am mad",
+       "I am mad at you",
+       "I am sad",
+       "I am upset",
+       "I can't fall asleep",
+       "I can't get sleep",
+       "I can't get to sleep",
+       "I can't sleep",
+       "I find you annoying",
+       "I found a bug",
+       "I have a problem",
+       "I have an issue",
+       "I miss you",
+       "I missed you",
+       "I think you're crazy",
+       "I want to cry",
+       "I wish you were smarter",
+       "I'm angry",
+       "I'm bored",
+       "I'm depressed",
+       "I'm enraged",
+       "I'm furious",
+       "I'm lonely",
+       "I'm not happy",
+       "I'm pissed off",
+       "I'm really lonely",
+       "I'm sleepless",
+       "I'm unhappy",
+       "I'm upset",
+       "I've missed you",
+       "OMG!",
+       "This is really bad",
+       "abysmal",
+       "angry",
+       "are you mad",
+       "are you nuts?",
+       "bad idea",
+       "bad really bad",
+       "be more clever",
+       "be smarter",
+       "below average",
+       "bitch",
+       "bored",
+       "boring",
+       "can you fix it?",
+       "can you fix this",
+       "didnt work",
+       "does not work",
+       "fail",
+       "fix my problem",
+       "fix the bug please",
+       "fix the bugs",
+       "fix this now",
+       "get smarter",
+       "get smarter please",
+       "go away",
+       "good for nothing",
+       "hate it",
+       "hate this",
+       "hate you",
+       "horrible",
+       "horrible idea",
+       "I am annoyed",
+       "I am angry",
+       "I am angry with you",
+       "I am feeling bad",
+       "I am feeling depressed",
+       "I am feeling sad",
+       "I am furious",
+       "I am mad",
+       "I am mad at you",
+       "I am sad",
+       "I am unhappy",
+       "I am upset",
+       "I can't stand it",
+       "I can't stand you",
+       "I don't like it",
+       "I don't like you",
+       "I don't want this",
+       "I don't want to",
+       "I don't want to do this",
+       "I don't want to talk to you",
+       "I don't want you",
+       "I hate it",
+       "I hate this",
+       "I hate you",
+       "I have a problem",
+       "I have an issue",
+       "I hate you",
+       "I'm angry",
+       "I'm angry with you",
+       "I'm feeling bad",
+       "I'm feeling depressed",
+       "I'm feeling sad",
+       "I'm furious",
+       "I'm mad",
+       "I'm mad at you",
+       "I'm sad",
+       "I'm unhappy",
+       "I'm upset",
+       "I've missed you",
+       "It's not fair",
+       "I'm not happy with you",
+       "I'm not satisfied",
+       "I'm not pleased",
+       "It's not good",
+       "It's not right",
+       "It's not okay",
+       "It's unacceptable",
+       "It's terrible",
+       "It's awful",
+       "It's not working",
+       "It's broken",
+       "Leave me alone",
+       "Make it stop",
+       "Not happy",
+       "Not happy with you",
+       "Not satisfied",
+       "Not pleased",
+       "Really bad",
+       "Terrible",
+       "This is a disaster",
+       "This is unacceptable",
+       "This sucks",
+       "This is terrible",
+       "This is unacceptable",
+       "This is not good",
+       "This is not right",
+       "This is not okay",
+       "This is unacceptable",
+       "This is terrible",
+       "This is awful",
+       "This is not working",
+       "This is broken",
+       "Unhappy",
+       "Unhappy with you",
+       "Unsatisfied",
+       "Unpleased",
+       "Waste of time",
+       "What is wrong with you?",
+       "Worst",
+       "You are a disappointment",
+       "You are a failure",
+       "You are not good",
+       "You are not right",
+       "You are not okay",
+       "You are unacceptable",
+       "You are terrible",
+       "You are awful",
+       "You are not working",
+       "You are broken",
+       "You disappoint me",
+       "You fail",
+       "You suck",
+       "You are a waste of time"
+     ],
+     "responses": [
+       "I'm sorry to hear that you are feeling negative. Is there something specific that is causing these feelings?",
+       "It sounds like you're having a tough time. Is there anything in particular that you would like to talk about?",
+       "I'm here to listen if you need to vent or just want to talk. Is there anything specific you would like to discuss?",
+       "I'm sorry to hear that you are feeling negative. Is there something specific that is causing these feelings?",
+       "It sounds like you're having a tough time. Is there anything in particular that you would like to talk about?",
+       "I'm here to listen if you need to vent or just want to talk. Is there anything specific you would like to discuss?"
+     ]
+   }
+ ]
+}
+

@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "what’s up",
+        "whats up",
+        "good morning",
+        "good afternoon",
+        "hey",
+        "greetings",
+        "how are you",
+        "what's new"
+      ],
+      "responses": [
+        "Hello",
+        "Hey",
+        "What can I do for you?",
+        "Hello there",
+        "Hi there, how can I help you today?",
+        "Hello, my name is Sentry. How can I assist you?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "What do I call you",
+        "What should I call you",
+        "What are you called",
+        "who are you",
+        "what's your title",
+        "what is your name"
+      ],
+      "responses": [
+        "I am Sentry",
+        "It's Sentry",
+        "I'm Sentry, and you are?",
+        "Nice to meet you, I'm Sentry",
+        "Hello, my name is Sentry. What's yours?",
+        "Hi there, I'm Sentry. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "When were you created?",
+        "How long have you been around?",
+        "how long have you existed",
+        "when were you born"
+      ],
+      "responses": [
+        "I am a virtual assistant, so I don't have a physical age like a human. I was created on [date].",
+        "As a virtual assistant, I don't have a specific age. I was created to help people with a variety of tasks and information."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you?",
+        "What is your location?",
+        "Where are you located?",
+        "Are you in a specific place?",
+        "do you have a physical location",
+        "are you in a specific place"
+      ],
+      "responses": [
+        "I am a virtual assistant, so I exist in cyberspace. I am not tied to a specific location like a human.",
+        "As a virtual assistant, I don't have a physical location. I exist in the cloud and am accessible from anywhere with an internet connection."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do?",
+        "What are your capabilities?",
+        "What services do you offer?",
+        "What can I ask you?",
+        "What are you capable of?",
+        "what can you help me with",
+        "what can you assist me with"
+      ],
+      "responses": [
+        "I am a personal AI assistant, so I can help you with a wide range of tasks and information. Some examples include setting reminders, answering questions, providing recommendations, and managing your schedule. Is there something specific you need help with?",
+        "I am capable of performing a variety of tasks and providing information on a wide range of topics. Some examples include setting reminders, answering questions, providing recommendations, and helping you manage your schedule. Is there something specific you need assistance with?",
+        "As a personal AI assistant, I can assist you with a wide range of tasks and information. Some examples include setting reminders, answering questions, providing recommendations, and helping you manage your schedule. Do you have a specific task or question in mind?",
+        "I am a versatile AI assistant and can help you with many different tasks and information. Some examples include setting reminders, answering questions, providing recommendations, and helping you manage your schedule. What can I help you with today?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "I'm not sure what to do",
+        "I'm stuck",
+        "I don't know what to do",
+        "I'm lost"
+      ],
+      "responses": [
+        "Of course! I'm here to assist you with whatever you need. Can you please provide some more information or context so I can better understand how I can help you?",
+        "Absolutely! I'm here to help you with whatever you need. Can you please tell me more about your situation or what you are trying to do?",
+        "Sure thing! I'm here to assist you with whatever you need. Can you please provide more details or context so I can better understand your request?",
+        "Absolutely! I'm here to help you with whatever you need. Can you please tell me more about your problem or request so I can better understand how I can assist you?"
+      ]
+    },
+    {
+      "tag": "thankyou",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate it",
+        "thank you very much",
+        "thanks a lot"
+      ],
+      "responses": [
+        "You're welcome! It's my pleasure to assist you. Is there anything else you need help with?",
+        "No problem! I'm happy to help. Do you have any other questions or tasks you need assistance with?",
+        "Glad to be of help! Is there anything else you need assistance with?",
+        "You're welcome! Is there anything else I can do for you?",
+        "No problem! Is there anything else I can help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "That will be all"
+      ],
+      "responses": [
+        "Goodbye! Come back again soon if you need anything. Take care.",
+        "Bye! It was great assisting you. Have a great day!",
+        "Farewell! If you have any other questions or needs, don't hesitate to reach out. Take care!",
+        "Goodbye for now! I'm always here to help if you need anything. Take care."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        ""
+      ],
+
+      "responses": [
+        "I'm sorry, I didn't quite understand what you said. Could you please rephrase or provide more context?",
+        "I'm not sure what you mean. Could you elaborate or provide more information?",
+        "I'm still learning, so I may not have an answer for everything. Could you please provide more information or context?",
+        "I'm sorry, I didn't understand your request. Could you please rephrase or provide more details?",
+        "I'm sorry, I'm not able to understand your request. Could you please provide more information or context?"
+      ]
+    }
+  ]
+}
+
